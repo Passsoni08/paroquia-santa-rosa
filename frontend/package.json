@@ -1,0 +1,28 @@
+{
+  "name": "igreja-website-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "styled-components": "^6.1.13",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^10.0.6",
+    "react-photo-view": "^1.2.6",
+    "react-intersection-observer": "^9.13.1",
+    "react-quill": "^2.0.0",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1"
+  }
+}
