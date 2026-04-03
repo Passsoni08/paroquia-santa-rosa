@@ -9,6 +9,8 @@ RUN pip install --no-cache-dir .
 
 COPY . .
 
+ENV PYTHONPATH=/app
+
 RUN mkdir -p /app/uploads && chown -R appuser:appuser /app
 
 USER appuser
